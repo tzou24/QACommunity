@@ -1,4 +1,4 @@
-package com.qac.common.model;
+package com.qac.platform.model;
 
 import com.jfinal.plugin.activerecord.ActiveRecordPlugin;
 
@@ -17,6 +17,7 @@ public class _MappingKit {
 	
 	public static void mapping(ActiveRecordPlugin arp) {
 		arp.addMapping("blog", "id", Blog.class);
+		arp.addMapping("test", "id", Test.class);
 	}
 }
 

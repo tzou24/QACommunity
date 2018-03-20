@@ -1,4 +1,4 @@
-package com.qac.common.model.base;
+package com.qac.platform.model.base;
 
 import com.jfinal.plugin.activerecord.Model;
 import com.jfinal.plugin.activerecord.IBean;
@@ -34,6 +34,15 @@ public abstract class BaseBlog<M extends BaseBlog<M>> extends Model<M> implement
 	
 	public java.lang.String getContent() {
 		return getStr("content");
+	}
+
+	public M setRead(java.lang.Integer read) {
+		set("read", read);
+		return (M)this;
+	}
+	
+	public java.lang.Integer getRead() {
+		return getInt("read");
 	}
 
 }

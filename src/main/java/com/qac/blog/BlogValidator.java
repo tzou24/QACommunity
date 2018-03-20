@@ -1,13 +1,10 @@
 package com.qac.blog;
 
-import com.qac.common.model.Blog;
 import com.jfinal.core.Controller;
 import com.jfinal.validate.Validator;
+import com.qac.platform.model.Blog;
 
 /**
- * 本 demo 仅表达最为粗浅的 jfinal 用法，更为有价值的实用的企业级用法
- * 详见 JFinal 俱乐部: http://jfinal.com/club
- * 
  * BlogValidator.
  */
 public class BlogValidator extends Validator {
@@ -21,9 +18,9 @@ public class BlogValidator extends Validator {
 		controller.keepModel(Blog.class);
 		
 		String actionKey = getActionKey();
-		if (actionKey.equals("/blog/save"))
+		if (actionKey.equals("/blog/save")) {
 			controller.render("add.html");
-		else if (actionKey.equals("/blog/update"))
+		} else if (actionKey.equals("/blog/update"))
 			controller.render("edit.html");
 	}
 }

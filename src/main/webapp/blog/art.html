@@ -1,0 +1,16 @@
+<fieldset class="solid">
+	<legend>Blog</legend>
+	<input type="hidden" name="blog.id" value="#(blog.id??)" />
+	<div>
+		<label>标题</label>
+		#(blog.title??)
+	</div>
+	<div>
+		<label>内容</label>
+		#(blog.content??)
+	</div>
+	<div>
+		<label>&nbsp;</label>
+		<input value="返回" type="submit">
+	</div>
+</fieldset>

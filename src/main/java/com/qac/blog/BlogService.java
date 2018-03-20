@@ -1,9 +1,9 @@
-package com.demo.blog;
+package com.qac.blog;
 
 
 import java.util.List;
 
-import com.demo.common.model.Blog;
+import com.qac.common.model.Blog;
 import com.jfinal.plugin.activerecord.Page;
 
 /**

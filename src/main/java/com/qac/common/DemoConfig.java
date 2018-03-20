@@ -1,8 +1,8 @@
-package com.demo.common;
+package com.qac.common;
 
-import com.demo.blog.BlogController;
-import com.demo.common.model._MappingKit;
-import com.demo.index.IndexController;
+import com.qac.blog.BlogController;
+import com.qac.common.model._MappingKit;
+import com.qac.index.IndexController;
 import com.jfinal.config.Constants;
 import com.jfinal.config.Handlers;
 import com.jfinal.config.Interceptors;

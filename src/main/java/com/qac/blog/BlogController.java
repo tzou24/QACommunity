@@ -1,8 +1,8 @@
-package com.demo.blog;
+package com.qac.blog;
 
 import com.jfinal.aop.Before;
 import com.jfinal.core.Controller;
-import com.demo.common.model.Blog;
+import com.qac.common.model.Blog;
 
 /**
  * 本 demo 仅表达最为粗浅的 jfinal 用法，更为有价值的实用的企业级用法

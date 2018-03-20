@@ -1,6 +1,6 @@
-package com.demo.blog;
+package com.qac.blog;
 
-import com.demo.common.model.Blog;
+import com.qac.common.model.Blog;
 import com.jfinal.core.Controller;
 import com.jfinal.validate.Validator;
 

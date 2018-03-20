@@ -1,7 +1,7 @@
-package com.demo.common.model;
+package com.qac.common.model;
 
 import javax.sql.DataSource;
-import com.demo.common.DemoConfig;
+import com.qac.common.DemoConfig;
 import com.jfinal.kit.PathKit;
 import com.jfinal.kit.PropKit;
 import com.jfinal.plugin.activerecord.generator.Generator;
